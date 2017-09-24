@@ -2,6 +2,7 @@
 #include "ATSProjectFrm.h"
 #include "Images/ATSProjectFrm_WxToolButton1_XPM.xpm"
 
+//event table
 BEGIN_EVENT_TABLE(ATSProjectFrm,wxFrame)
 
     EVT_CLOSE(ATSProjectFrm::OnClose)
